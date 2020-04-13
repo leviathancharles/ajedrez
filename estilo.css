@@ -21,6 +21,13 @@
     margin: 0px;
 
 }
+
+.relleno{
+    width: 5px;
+    height: 5px;
+    max-width: 5px;
+}
+
 .listado{
     float:right;
     position: absolute;

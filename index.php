@@ -7,13 +7,13 @@
     <title>Ajedrez</title>
 </head>
 <body>
-    <input type="text" name="cantidad" id="cantidad" />
+    <input type="number" name="cantidad" id="cantidad" />
 
     <button id="crear">Crear Tablero</button>
     
-    <button id="reset">Borrar Tablero</button>
+    <button id="reset" disabled>Borrar Tablero</button>
 
-    <button id="relleno">Rellenar Valores</button>
+    <button id="relleno" disabled>Rellenar Valores</button>
     
     <div class="contenedor" id="contenedor">
 
