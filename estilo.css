@@ -1,16 +1,27 @@
 .contenedor{
-    display: flex;
-    width: 650px;
+
+    width: auto;
     height: 650px;
+    float: left;
+    position: absolute;
+ 
 }
+
 .caja{
     width: 20px;
+    max-width: 20px;
     height: 20px;
-    display: flex;
+    float: left;
+    position:relative;
     border-bottom: 1px solid  black;
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
     padding: 0px;
-    margin: 1px;
+    margin: 0px;
+
+}
+.listado{
+    float:right;
+    position: absolute;
 }

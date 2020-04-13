@@ -13,13 +13,22 @@ function crearTablero() {
         for (let i = 1; i <= tablero; i++) {
 
             let residuo = i % cantidad;
-                var p = document.createElement("p");
-                p.textContent = residuo;
-                document.getElementById("valores").appendChild(p); 
-            
+                
             var div = document.createElement("div");
             div.className = "caja";
-            document.getElementById("contenedor").appendChild(div);        
+           
+            var newContent = document.createTextNode(i); 
+            div.appendChild(newContent);
+
+            document.getElementById("contenedor").appendChild(div);
+
+            if(residuo == 0 )
+            {
+                var salto = document.createElement("br");
+                document.getElementById("contenedor").appendChild(salto);
+
+            }
+               
         }
        
     }
