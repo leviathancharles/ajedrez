@@ -7,9 +7,16 @@
     <title>Ajedrez</title>
 </head>
 <body>
-    <div class="caja"></div>
-    <div class="caja"></div>
+    <input type="text" name="cantidad" id="cantidad" />
 
+    <button id="crear">Crear Tablero</button>
+    
+    <button id="reset">Borrar Tablero</button>
+    
+    <div class="contenedor" id="contenedor">
+
+    </div>
+    <div id="valores"></div>
     
     <script type="text/javascript" src="eventos.js"></script>
 </body>

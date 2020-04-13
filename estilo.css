@@ -1,3 +1,8 @@
+.contenedor{
+    display: flex;
+    width: 650px;
+    height: 650px;
+}
 .caja{
     width: 20px;
     height: 20px;
