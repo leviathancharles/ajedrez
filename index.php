@@ -12,6 +12,8 @@
     <button id="crear">Crear Tablero</button>
     
     <button id="reset">Borrar Tablero</button>
+
+    <button id="relleno">Rellenar Valores</button>
     
     <div class="contenedor" id="contenedor">
 
